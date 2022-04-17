@@ -21,3 +21,11 @@
   border: 1px solid lightgray !important;
   border-radius: 4px;
 }
+.dx-texteditor.dx-editor-filled::after,
+.dx-texteditor::before {
+  display: none;
+}
+
+.dx-texteditor {
+  border-radius: 4px !important;
+}

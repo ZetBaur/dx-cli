@@ -1,10 +1,14 @@
-import "devextreme/dist/css/dx.common.css";
+import "@/assets/styles/reset.scss";
+
+// import "devextreme/dist/css/dx.common.css";
+
 import "./themes/generated/theme.base.css";
 import "./themes/generated/theme.additional.css";
 
-import "@/assets/styles/reset.scss";
 import "@/assets/styles/global.scss";
 import "@/assets/styles/dx-custom-styles.scss";
+
+import "devextreme/dist/css/dx.material.teal.light.css";
 
 import ruMessages from "devextreme/localization/messages/ru.json";
 import { locale, loadMessages } from "devextreme/localization";

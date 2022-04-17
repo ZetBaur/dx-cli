@@ -166,7 +166,7 @@ export default {
     background: #fff !important;
 
     .dx-treeview-node[aria-level="1"] {
-        border-bottom: 1px solid lightgray !important;
+        border-bottom: none !important;
     }
 
     .dx-treeview-toggle-item-visibility {
@@ -187,7 +187,7 @@ export default {
         color: green;
 
         &:hover {
-            color: #fff;
+            color: green;
         }
     }
 
@@ -199,35 +199,6 @@ export default {
         background: green !important;
     }
 }
-
-// .menu-container {
-//     background: #fff !important;
-
-//     .dx-treeview-item {
-//         background: blue;
-//         border-bottom: 1px solid #fff;
-
-//         &:hover {
-//             background: yellow !important;
-//         }
-//     }
-
-//     .dx-item {
-//         color: green;
-
-//         &:hover {
-//             color: brown;
-//         }
-//     }
-
-//     .dx-state-selected > .dx-treeview-item * {
-//         color: aqua !important;
-//     }
-
-//     .dx-state-selected:not(.dx-state-focused) > .dx-treeview-item {
-//         background: orchid !important;
-//     }
-// }
 
 .side-nav-inner-toolbar {
     width: 100%;

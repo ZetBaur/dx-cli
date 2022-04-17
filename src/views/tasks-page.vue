@@ -55,7 +55,7 @@
 
         <!-- ----------------------------------- -->
 
-        <DxFilterRow :visible="true" />
+        <DxFilterRow :visible="true" :show-operation-chooser="false" />
 
         <!-- ----------------------------------- -->
 
@@ -115,7 +115,6 @@
             data-field="BirthDate"
             caption="Дата рождения"
             data-type="date"
-           
             :hiding-priority="5"
         />
 
