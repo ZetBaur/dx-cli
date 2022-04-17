@@ -6,14 +6,6 @@
                 <div class="dx-field-label">Email</div>
                 <div class="dx-field-value">
                     <DxTextBox label-mode="floating" label="gggggg">
-                        <DxValidator>
-                            <DxRequiredRule message="Email is required" />
-                            <DxEmailRule message="Email is invalid" />
-                            <DxAsyncRule
-                                :validation-callback="asyncValidation"
-                                message="Email is already registered"
-                            />
-                        </DxValidator>
                     </DxTextBox>
                 </div>
             </div>
@@ -35,7 +27,11 @@
             <div class="dx-field">
                 <div class="dx-field-label">Confirm Password</div>
                 <div class="dx-field-value">
-                    <DxTextBox mode="password">
+                    <DxTextBox
+                        mode="password"
+                        label-mode="floating"
+                        label="gggggg"
+                    >
                         <DxValidator>
                             <DxRequiredRule
                                 message="Confirm Password is required"
@@ -183,11 +179,11 @@ import {
     DxValidator,
     DxRequiredRule,
     DxCompareRule,
-    DxEmailRule,
+    // DxEmailRule,
     DxPatternRule,
     DxStringLengthRule,
     DxRangeRule,
-    DxAsyncRule,
+    // DxAsyncRule,
 } from "devextreme-vue/validator";
 
 import notify from "devextreme/ui/notify";
@@ -212,11 +208,11 @@ export default {
         DxValidator,
         DxRequiredRule,
         DxCompareRule,
-        DxEmailRule,
+        // DxEmailRule,
         DxPatternRule,
         DxStringLengthRule,
         DxRangeRule,
-        DxAsyncRule,
+        // DxAsyncRule,
         DxValidationSummary,
     },
     data() {
@@ -262,7 +258,16 @@ export default {
     },
 };
 </script>
-<style scoped>
+<style >
+/* .dx-texteditor-input {
+    margin: 0;
+    padding: 7px 9px 8px;
+    background: hsl(0deg 0% 0% / 0%);
+    color: hsl(0deg 0% 20%);
+    font-size: 1em;
+    border-radius: 4px;
+    min-height: 34px;
+} */
 #summary {
     padding-left: 10px;
     margin-top: 20px;

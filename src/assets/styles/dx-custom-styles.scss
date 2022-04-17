@@ -12,20 +12,33 @@
     margin-right: 16px;
   }
 }
-
-.dx-toolbar-button.dx-toolbar-text-auto-hide .dx-button-has-icon.dx-button-has-text {
-  border: 1px solid lightgray;
+.dx-texteditor.dx-editor-outlined.dx-state-focused {
+  box-shadow: none !important;
 }
 
-.dx-datagrid-export-button {
-  border: 1px solid lightgray !important;
-  border-radius: 4px;
+.dx-editor-outlined.dx-texteditor-with-floating-label.dx-lookup-empty,
+.dx-editor-outlined.dx-texteditor-with-floating-label.dx-texteditor-empty {
+  box-shadow: none !important;
 }
-.dx-texteditor.dx-editor-filled::after,
-.dx-texteditor::before {
-  display: none;
-}
+// .dx-toolbar-button.dx-toolbar-text-auto-hide .dx-button-has-icon.dx-button-has-text {
+//   border: 1px solid lightgray;
+// }
 
-.dx-texteditor {
-  border-radius: 4px !important;
-}
+// .dx-datagrid-export-button {
+//   border: 1px solid lightgray !important;
+//   border-radius: 4px;
+// }
+
+// .dx-texteditor.dx-editor-filled::after,
+// .dx-texteditor::before {
+//   display: none;
+// }
+
+// .dx-texteditor {
+//   border-radius: 4px !important;
+// }
+
+// .dx-texteditor-input {
+//   padding: 16px !important;
+//   border: 1px solid red !important;
+// }
