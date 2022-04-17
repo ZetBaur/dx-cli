@@ -12,3 +12,12 @@
     margin-right: 16px;
   }
 }
+
+.dx-toolbar-button.dx-toolbar-text-auto-hide .dx-button-has-icon.dx-button-has-text {
+  border: 1px solid lightgray;
+}
+
+.dx-datagrid-export-button {
+  border: 1px solid lightgray !important;
+  border-radius: 4px;
+}

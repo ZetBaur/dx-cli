@@ -115,6 +115,7 @@
             data-field="BirthDate"
             caption="Дата рождения"
             data-type="date"
+           
             :hiding-priority="5"
         />
 
