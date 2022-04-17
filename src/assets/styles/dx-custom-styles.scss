@@ -1,0 +1,14 @@
+.dx-loadindicator {
+  position: fixed;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  top: 50%;
+}
+
+.actions {
+  padding: 32px 0;
+
+  .dx-button {
+    margin-right: 16px;
+  }
+}
