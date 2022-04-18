@@ -40,6 +40,16 @@ const router = new createRouter({
       },
       component: () => import("@/views/master-detail/master-detail.vue")
     },
+
+    {
+      path: "/notify-view",
+      name: "notify-view",
+      meta: {
+        requiresAuth: true,
+        layout: defaultLayout
+      },
+      component: () => import("@/views/notify/notify-view.vue")
+    },
     {
       path: "/toolbar",
       name: "toolbar",

@@ -5,7 +5,7 @@
             <div class="dx-field">
                 <div class="dx-field-label">Email</div>
                 <div class="dx-field-value">
-                    <DxTextBox label-mode="floating" label="gggggg">
+                    <DxTextBox label-mode="floating" label="Электронная почта">
                     </DxTextBox>
                 </div>
             </div>
