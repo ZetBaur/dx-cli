@@ -1,3 +1,4 @@
 export default {
-  title: "App Name"
+  title: "App Name",
+  
 };
