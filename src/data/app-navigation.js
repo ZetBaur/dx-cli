@@ -22,5 +22,15 @@ export default [
     text: "Master-detail",
     path: "/masterdetail",
     icon: "home"
+  },
+  {
+    text: "Notify",
+    path: "/notify-view",
+    icon: "home"
+  },
+  {
+    text: "Toolbar",
+    path: "/toolbar",
+    icon: "home"
   }
 ];
