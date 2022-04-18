@@ -21,16 +21,16 @@ export default [
   {
     text: "Master-detail",
     path: "/masterdetail",
-    icon: "home"
+    icon: "airplane"
   },
   {
     text: "Notify",
     path: "/notify-view",
-    icon: "home"
+    icon: "bookmark"
   },
   {
     text: "Toolbar",
     path: "/toolbar",
-    icon: "home"
+    icon: "favorites"
   }
 ];
