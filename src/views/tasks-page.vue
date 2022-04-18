@@ -38,6 +38,11 @@
         @exporting="onExporting"
     >
         >
+        <DxStateStoring
+            :enabled="true"
+            type="localStorage"
+            storage-key="storage"
+        />
         <!-- ----------------------------------- -->
         <DxPaging :page-size="10" />
         <!-- ----------------------------------- -->
@@ -138,6 +143,7 @@ import {
     DxSelection,
     DxFilterRow,
     DxExport,
+    DxStateStoring,
 } from "devextreme-vue/data-grid";
 import { DxButton } from "devextreme-vue/button";
 import { employees, states } from "./data.js";
@@ -154,6 +160,7 @@ export default {
         DxFilterRow,
         DxButton,
         DxExport,
+        DxStateStoring,
     },
 
     setup() {
