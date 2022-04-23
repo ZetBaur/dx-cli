@@ -179,7 +179,7 @@ export default {
         background: #fff;
 
         &:hover {
-            background: lightgray !important;
+            background: #fff !important;
         }
     }
 

@@ -22,6 +22,7 @@
         showColumnLines="true"
         :column-hiding-enabled="true"
         key-expr="ID"
+        :focused-row-enabled="true"
         @editing-start="logEvent('EditingStart')"
         @init-new-row="logEvent('InitNewRow')"
         @row-inserting="logEvent('RowInserting')"
@@ -60,7 +61,10 @@
 
         <!-- ----------------------------------- -->
 
-        <DxFilterRow :visible="true" :show-operation-chooser="false" />
+        <DxFilterRow
+            :visible="true"
+            :show-operation-chooser="false"
+        />
 
         <!-- ----------------------------------- -->
 

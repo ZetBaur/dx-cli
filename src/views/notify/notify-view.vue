@@ -140,6 +140,7 @@ export default {
         onClick(e) {
             const buttonText = e.component.option("text");
             // notify(`The ${this.capitalize(buttonText)} button was clicked`);
+
             notify(
                 {
                     message: `The ${this.capitalize(
@@ -150,17 +151,18 @@ export default {
                     shading: false,
                     closeOnOutsideClick: true,
                     hideOnParentScroll: true,
-                    position: "center center",
-                    // position: {
-                    //     at: "top right",
-                    //     my: "top right",
-                    //     offset: "-90 90",
-                    // },
+                    // position: "center center",
+                    position: {
+                        at: "top right",
+                        my: "top right",
+                        offset: "-20 80",
+                    },
                 },
                 "success",
                 121500
             );
         },
+
         capitalize(text) {
             return text.charAt(0).toUpperCase() + text.slice(1);
         },

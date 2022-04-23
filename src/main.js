@@ -14,6 +14,8 @@ loadMessages(ruMessages);
 locale(navigator.language);
 // ---------------------------------------------
 
+// ---------------------------------------------
+
 import { createApp } from "vue";
 import router from "./router/router";
 

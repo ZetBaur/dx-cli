@@ -50,6 +50,26 @@ const router = new createRouter({
       },
       component: () => import("@/views/notify/notify-view.vue")
     },
+
+    {
+      path: "/tags",
+      name: "tags",
+      meta: {
+        requiresAuth: true,
+        layout: defaultLayout
+      },
+      component: () => import("@/views/tags/tags-view.vue")
+    },
+
+    {
+      path: "/kanban",
+      name: "kanban",
+      meta: {
+        requiresAuth: true,
+        layout: defaultLayout
+      },
+      component: () => import("@/views/kanban/kanban-view.vue")
+    },
     {
       path: "/toolbar",
       name: "toolbar",
