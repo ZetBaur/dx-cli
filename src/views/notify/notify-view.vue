@@ -146,11 +146,11 @@ export default {
                     message: `The ${this.capitalize(
                         buttonText
                     )} button was clicked`,
-                    width: 300,
-                    height: 100,
-                    shading: false,
+                    // width: 300,
+                    // height: 100,
+                    // shading: false,
                     closeOnOutsideClick: true,
-                    hideOnParentScroll: true,
+                    // hideOnParentScroll: true,
                     // position: "center center",
                     position: {
                         at: "top right",

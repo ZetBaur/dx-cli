@@ -22,7 +22,7 @@
                     class="layout-body with-footer content-block"
                 >
                     <slot />
-                    <slot name="footer" />
+                    <!-- <slot name="footer" /> -->
                 </dx-scroll-view>
             </div>
             <template #menuTemplate>
